@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E85063B81CEC4C8D00F0BB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85063B71CEC4C8D00F0BB16 /* AppDelegate.swift */; };
-		E85063BA1CEC4C8D00F0BB16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85063B91CEC4C8D00F0BB16 /* ViewController.swift */; };
 		E85063BD1CEC4C8D00F0BB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85063BB1CEC4C8D00F0BB16 /* Main.storyboard */; };
 		E85063C01CEC4C8D00F0BB16 /* Tablecell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E85063BE1CEC4C8D00F0BB16 /* Tablecell.xcdatamodeld */; };
 		E85063C21CEC4C8D00F0BB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85063C11CEC4C8D00F0BB16 /* Assets.xcassets */; };
 		E85063C51CEC4C8D00F0BB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85063C31CEC4C8D00F0BB16 /* LaunchScreen.storyboard */; };
 		E85063D01CEC4C8D00F0BB16 /* TablecellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85063CF1CEC4C8D00F0BB16 /* TablecellTests.swift */; };
 		E85063DB1CEC4C8D00F0BB16 /* TablecellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85063DA1CEC4C8D00F0BB16 /* TablecellUITests.swift */; };
+		E85063E91CEC4D0600F0BB16 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85063E81CEC4D0600F0BB16 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		E85063B41CEC4C8D00F0BB16 /* Tablecell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tablecell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85063B71CEC4C8D00F0BB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E85063B91CEC4C8D00F0BB16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E85063BC1CEC4C8D00F0BB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E85063BF1CEC4C8D00F0BB16 /* Tablecell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tablecell.xcdatamodel; sourceTree = "<group>"; };
 		E85063C11CEC4C8D00F0BB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		E85063D61CEC4C8D00F0BB16 /* TablecellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablecellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85063DA1CEC4C8D00F0BB16 /* TablecellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablecellUITests.swift; sourceTree = "<group>"; };
 		E85063DC1CEC4C8D00F0BB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85063E81CEC4D0600F0BB16 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				E85063B71CEC4C8D00F0BB16 /* AppDelegate.swift */,
-				E85063B91CEC4C8D00F0BB16 /* ViewController.swift */,
 				E85063BB1CEC4C8D00F0BB16 /* Main.storyboard */,
 				E85063C11CEC4C8D00F0BB16 /* Assets.xcassets */,
 				E85063C31CEC4C8D00F0BB16 /* LaunchScreen.storyboard */,
 				E85063C61CEC4C8D00F0BB16 /* Info.plist */,
 				E85063BE1CEC4C8D00F0BB16 /* Tablecell.xcdatamodeld */,
+				E85063E81CEC4D0600F0BB16 /* TableViewController.swift */,
 			);
 			path = Tablecell;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85063C01CEC4C8D00F0BB16 /* Tablecell.xcdatamodeld in Sources */,
-				E85063BA1CEC4C8D00F0BB16 /* ViewController.swift in Sources */,
+				E85063E91CEC4D0600F0BB16 /* TableViewController.swift in Sources */,
 				E85063B81CEC4C8D00F0BB16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
